@@ -11,5 +11,7 @@ namespace _2025._01._16._animals
         string foodType { get; set; }
         Label nameLabel { get; set; }
         Label typeLabel { get; set; }
+        PictureBox picture { get; set; }
+        Panel AnimalPanel { get; set; }
     }
 }
